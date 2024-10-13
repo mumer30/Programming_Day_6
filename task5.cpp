@@ -54,7 +54,7 @@ float calculate_amount(string fruit,string day,float quantity)
    }
    else 
       {
-         cout <<"Invalid Input";
+         cout <<"Invalid Input"<<endl;
          return 0;
       
       }

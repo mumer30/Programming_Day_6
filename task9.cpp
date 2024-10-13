@@ -19,12 +19,12 @@ string check_point(int h,int x,int y)
     {
         return "Border";
     }
-
-    //Inside
     else if ((x>=h &&  x<=2*h)  && y == h*4  )
     {
         return "Border";
     }
+
+    //Inside
     else if (y<=h  &&  x <= 3*h)
     {
         return "Inside";
